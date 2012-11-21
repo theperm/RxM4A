@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC9F27EB-5AC3-471D-AD79-22C321B32AC0}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.Reactive.Interfaces</RootNamespace>
+    <AssemblyName>System.Reactive.Interfaces</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\AssemblyFileVersionAttribute.cs">
+      <Link>AssemblyFileVersionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\DateTimeOffset.cs">
+      <Link>DateTimeOffset.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\GlobalSuppressions.cs">
+      <Link>GlobalSuppressions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\IObservable.cs">
+      <Link>IObservable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\IObserver.cs">
+      <Link>IObserver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\NamespaceDocs.cs">
+      <Link>NamespaceDocs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Concurrency\IScheduledItem.cs">
+      <Link>Reactive\Concurrency\IScheduledItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Concurrency\IScheduler.cs">
+      <Link>Reactive\Concurrency\IScheduler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Concurrency\ISchedulerLongRunning.cs">
+      <Link>Reactive\Concurrency\ISchedulerLongRunning.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Concurrency\ISchedulerPeriodic.cs">
+      <Link>Reactive\Concurrency\ISchedulerPeriodic.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Concurrency\IStopwatch.cs">
+      <Link>Reactive\Concurrency\IStopwatch.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Concurrency\IStopwatchProvider.cs">
+      <Link>Reactive\Concurrency\IStopwatchProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Disposables\ICancelable.cs">
+      <Link>Reactive\Disposables\ICancelable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\IEventPattern.cs">
+      <Link>Reactive\IEventPattern.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\IEventPatternSource.cs">
+      <Link>Reactive\IEventPatternSource.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\IEventSource.cs">
+      <Link>Reactive\IEventSource.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\IObserver.Result.cs">
+      <Link>Reactive\IObserver.Result.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Linq\IGroupedObservable.cs">
+      <Link>Reactive\Linq\IGroupedObservable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Linq\IQbservable.cs">
+      <Link>Reactive\Linq\IQbservable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Linq\IQbservableProvider.cs">
+      <Link>Reactive\Linq\IQbservableProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Subjects\IConnectableObservable.cs">
+      <Link>Reactive\Subjects\IConnectableObservable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Subjects\ISubject.cs">
+      <Link>Reactive\Subjects\ISubject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Rx.NET\System.Reactive.Interfaces\Reactive\Subjects\ISubject.Multi.cs">
+      <Link>Reactive\Subjects\ISubject.Multi.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
